@@ -1,0 +1,42 @@
+.blue{
+  background-color: blue;
+}
+
+.red{
+  background-color: red;
+}
+
+.purple{
+  background-color: blueviolet;
+  
+}
+
+.gold{
+  background-color: gold;
+}
+
+.font-w{
+  font-size: 2em;
+}
+
+.pad{
+  margin-left:300px;
+  margin-right:300px;
+}
+@media all and (min-width: 992px) {
+	.navbar .dropdown .d-flex { display: none; }
+	/* .navbar .dropdown:hover .nav-link{   } */
+	.navbar .dropdown:hover .dropdown-menu{ display: block; width: 1080px; }
+	.navbar .dropdown .dropdown-menu{ margin-top:50px; }
+}	
+
+
+@media all and (min-width: 992px) {
+	
+	a:hover .collapse{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:50px; }
+}	
+
+.btn:hover{
+  background-color:#2b49022d;
+}
