@@ -24,6 +24,10 @@
   opacity: 0.1;
 }
 
+.liststyle{
+  list-style: none;
+}
+
 .pad{
   margin-left:300px;
   margin-right:300px;
@@ -50,6 +54,27 @@
   border-right:1px dotted black;
   
   
+}
+
+@media all and (min-width: 500px) {
+  .b-right{border-bottom:1px dotted black;
+    border-right:0; }
+  
+}
+
+@media all and (min-width: 720px) {
+  .b-right{border-bottom:0;
+    border-right:1px dotted black; }
+  
+}
+
+.ref{
+  text-decoration: none;
+  color: #93b662;
+}
+
+.color{
+  background-color:rgb(230, 85, 33, 0.884);
 }
 
 
